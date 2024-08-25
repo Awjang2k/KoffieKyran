@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyran</title>
+    <link rel="icon" type="image/png" href="assets/logoKyranSinglePutih-01.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+<!-- nav -->
+<header id="atas" class="bg-transparent">
+  <div class="bg-transparent mx-auto max-w-screen-xl px-4 sm:px-6 ">
+    <div class="flex items-center justify-between w-full">
+      <div class="md:flex md:items-center md:gap-12">
+        <a class="block text-teal-600" href="#">
+          <img class="h-auto w-11 mt-4" src="assets/logoKyranSinglePutih-01.svg" alt="">
+          <span class="sr-only">Home</span>
+        </a>
+      </div>
+<!-- desktop ver -->
+<div class="bg-transparent flex-1 hide">
+  <nav aria-label="Global">
+    <ul class="text-white ml-6 flex justify-center gap-8 text-md mt-6">
+      <li class="text-green-500"><a href="#kenapaKami">Tentang Kami</a></li>
+      <li class="hover:text-green-500"><a href="indexMenu.html">Menu</a></li>
+      <li class="hover:text-green-500"><a href="https://wa.me/6282262856560" target="_blank">Kontak</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Right Side Icons -->
+<div class=" flex items-center mt-6 gap-4">
+  <a href="https://www.tiktok.com/@koffiekyran" target="_blank">
+    <svg class="iconTiktok fill-current text-white hover:text-green-500 transition hide h-auto w-6 "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/koffiekyran" target="_blank">
+    <svg class="hide h-auto w-9 text-white transition hover:text-green-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <rect x="4" y="4" width="16" height="16" rx="4" />
+      <circle cx="12" cy="12" r="3" />
+      <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+    </svg>
+  </a>
+</div>
+
+
+        <!-- Hamburger Menu Button -->
+        <div class="block md:hidden">
+          <button class="hamburger-menu-button rounded bg-green-700 p-2 text-white transition hover:text-gray-600/75">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /> 
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Sidebar Navigation Menu -->
+<nav class=" nav-menu">
+  <div class="nav-header flex-col">
+    <img class="h-auto w-8" src="assets/logoKyranSinglePutih-01.svg" alt="Logo" class="logo">
+  <!-- Close button inside the menu -->
+  <div class="close-btn bg-white bg-clip-text text-transparent">✖</div>
+  <ul class="menu-kanan">
+    <li class="hover:bg-green-500/50"><a class="text-green-500" href="#kenapaKami">Tentang</a></li>
+    <li class="hover:bg-green-500/50"><a class="text-white" href="indexMenu.html">Menu</a></li>
+    <li class="hover:bg-green-500/50"><a class="text-white" href="https://wa.me/6282262856560" target="_blank">Contact</a></li>
+  </ul>
+</nav>
+<!-- nav -->
+
+    <!-- hero start -->
+    <section class="bg-gray-50 relative hero">
+      <div class="overlay"></div>
+      <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+        
+        <div class="textnya mx-auto max-w-xl text-center">
+          <h1 class="text-green font-extrabold text-4xl sm:text-5xl">
+            <span class="block bg-gradient-to-r from-green-500 via-green-600 to-green-700 bg-clip-text text-transparent">
+              KoffieKyran
+            </span>
+            <strong class="block text-white">As A Space</strong>
+          </h1>
+          <p class="mt-4 sm:text-xl/relaxed text-gray-300">
+            ketika hidup tidak menemukan filosofi
+          </p>
+          <div class="mt-8 flex flex-wrap justify-center gap-4">
+            <a class="block w-full sm:w-auto rounded bg-green-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-green-700 focus:outline-none focus:ring active:bg-green-500" href="https://ojursvyne6r.typeform.com/to/qm549f7n" target="_blank">
+              Reservasi Space
+            </a>
+            <a class="block w-full sm:w-auto rounded px-12 py-3 text-sm font-medium text-white shadow hover:text-green-700 focus:outline-none focus:ring ring-1 ring-green-400 active:text-green-500" href="https://maps.app.goo.gl/iGAguajub4e8nAnf6" target="_blank">
+              Lihat Lokasi
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- space program -->
+    <section class="bg-gray-100">
+      <div class="container px-6 py-10 mx-auto">
+          <h1 class="mt-14 text-2xl font-semibold capitalize lg:text-5xl bg-gradient-to-r from-green-500 from-10% via-green-600 via-30% to-green-800 to-90% bg-clip-text text-transparent">Space Program <span class="text-gray-500">🚀</span></h1>
+          <p class="font-sm lg:text-sm text-gray-500 mt-5">Program ini dirancang untuk seluruh lapisan masyarakat yang ingin <br> berbagi cerita dan aktivitas seru di kafe kami. Nikmati fasilitas lengkap dan hidangan lezat <br> yang kami sediakan, sambil menciptakan kenangan tak terlupakan bersama komunitas Anda.</p>
+  
+          <div class="mt-2">
+              <span class="inline-block w-40 h-1 bg-green-600 rounded-full"></span>
+              <span class="inline-block w-3 h-1 ml-1 bg-green-600 rounded-full"></span>
+              <span class="inline-block w-1 h-1 ml-1 bg-green-600 rounded-full"></span>
+          </div>
+  
+          <div class="mt-8 xl:mt-12 lg:flex lg:items-center">
+              <div class="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
+                  <div class="space-y-3">
+                      <span class="inline-block p-3 text-gray-200 bg-green-500 rounded-xl">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                          </svg>
+                      </span>
+  
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize">Instansi</h1>
+  
+                      <p class="text-gray-500 ">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                      </p>
+                  </div>
+  
+                  <div class="space-y-3">
+                      <span class="inline-block p-3 text-gray-200 bg-green-500 rounded-xl ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                          </svg>
+                      </span>
+  
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize">Komunitas</h1>
+  
+                      <p class="text-gray-500">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                      </p>
+                  </div>
+  
+                  <div class="space-y-3">
+                      <span class="inline-block p-3 text-gray-200 bg-green-500 rounded-xl ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                          </svg>
+                      </span>
+  
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize ">Tongkrongan</h1>
+  
+                      <p class="text-gray-500 ">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                      </p>
+                  </div>
+  
+                  <div class="space-y-3">
+                      <span class="inline-block p-3 text-gray-200 bg-green-500 rounded-xl ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                          </svg>
+                      </span>
+  
+                      <h1 class="text-xl font-semibold text-gray-700 capitalize ">Nobar</h1>
+  
+                      <p class="text-gray-500 ">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                      </p>
+                  </div>
+              </div>
+  
+              <div class="hidden lg:flex lg:w-1/2 lg:justify-center">
+                  <img class="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="assets/komunitas.jpg" alt="">
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- space program end -->
+   
+    <!-- space program start-->
+    <!-- <div class="bg-gray-100">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r from-green-500 from-10% via-green-600 via-30% to-green-800 to-90% bg-clip-text text-transparent">Space Program <span class="text-black">🚀</span>  </h2>
+          <p class="mt-4 text-gray-500">Space Program kami adalah wadah untuk seluruh komunitas, dari yang kecil hingga besar. Di sini, setiap komunitas dapat berkumpul, berkolaborasi, dan menciptakan momen berkesan bersama.</p>
+    
+          <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+            <div class="border-t border-green-500 pt-4">
+              <dt class="font-medium text-gray-900">Komunitas</dt>
+              <dd class="mt-2 text-sm text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, provident!</dd>
+            </div>
+            <div class="border-t border-green-500 pt-4">
+              <dt class="font-medium text-gray-900">Instansi</dt>
+              <dd class="mt-2 text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minima exercitationem hic obcaecati aperiam rem impedit similique iste explicabo necessitatibus!</dd>
+            </div>
+            <div class="border-t border-green-500 pt-4">
+              <dt class="font-medium text-gray-900">Bola enthusiast</dt>
+              <dd class="mt-2 text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptate?</dd>
+            </div>
+            <div class="border-t border-green-500 pt-4">
+              <dt class="font-medium text-gray-900">Games</dt>
+              <dd class="mt-2 text-sm text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, possimus.</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-6 lg:gap-y-1 ">
+          <img src="assets/komunitas.jpg" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100">
+          <img src="assets/rapat.jpg" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100">
+          <img src="assets/nobar.jpeg" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100">
+          <img src="assets/gamer.jpg" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100">
+        </div>
+      </div>
+    </div> -->
+    <!-- space program  end-->
+
+<!-- logo komunitas disini -->
+<div class="bg-gray-100 py-24 sm:py-32">
+  <div class="h-48 pt-2 mx-auto max-w-7xl px-6 lg:px-8">
+    <h2 class="bg-green-600 shadow-lg p-2 h-auto rounded-lg text-center text-2xl font-semibold leading-8 text-gray-200">
+      200+ <br> Kerjasama Space
+    </h2>
+    <div
+      class=" mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+    >
+      <img
+        class="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+        src="assets/aryajaya-01.svg"
+        alt="Transistor"
+        width="158"
+        height="48"
+      />
+      <img
+        class="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+        src="assets/kabgarut-02.svg"
+        alt="Reform"
+        width="158"
+        height="48"
+      />
+      <img
+        class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+        src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+        alt="Tuple"
+        width="158"
+        height="48"
+      />
+      <img
+        class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+        src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
+        alt="SavvyCal"
+        width="158"
+        height="48"
+      />
+      <img
+        class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+        src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
+        alt="Statamic"
+        width="158"
+        height="48"
+      />
+    </div>
+  </div>
+</div>
+<!-- logo komunitas disini end -->
+
+    <!-- introduce 2 start-->
+    <div id="kenapaKami" class="overflow-hidden bg-gray-100 py-24 sm:py-32 -mt-20">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div class="flex justify-center lg:order-0 lg:flex lg:justify-start">
+            <img
+              src="assets/gambar-kopi-cup-01-01.png"
+              alt="kopicup"
+              class="object-cover max-w-none gambarKopi lg:max-w-lg lg:h-auto"
+            />
+          </div>
+          <div class="lg:order-1 lg:pr-8 lg:pt-4">
+            <div class="lg:max-w-lg">
+              <h2 id="faq" class="text-base font-semibold leading-7 text-green-700">FAQ</h2>
+              <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Kenapa harus kami?</p>
+              <p class="mt-6 text-lg leading-8 text-gray-600">
+                Cafe kami menawarkan tempat nyaman bagi semua komunitas, nikmati kopi lezat dan suasana hangat. Rasakan pengalaman baru, nongkrong sambil menikmati kegiatan komunitas atau sekadar berkumpul dengan teman-teman, semua pasti nyaman di sini.
+              </p>
+              <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-6 w-6 text-green-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <path d="M9 12l2 2l4 -4" />
+                      <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                    </svg>
+                    Pengalaman Unik dan Berbeda.
+                  </dt>
+                  <dd class="inline">
+                    Kami menawarkan pengalaman baru dengan suasana hangat, di mana pengunjung dapat menikmati kegiatan komunitas atau sekadar bersantai bersama teman-teman.
+                  </dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-6 w-6 text-green-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                      <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                      <line x1="9" y1="9" x2="10" y2="9" />
+                      <line x1="9" y1="13" x2="15" y2="13" />
+                      <line x1="9" y1="17" x2="15" y2="17" />
+                    </svg>
+                    Kopi dan Makanan Berkualitas.
+                  </dt>
+                  <dd class="inline">
+                    Selain tempat yang nyaman, kami juga menyajikan kopi dan makanan yang lezat, menjadikan setiap kunjungan lebih memuaskan dan berkesan.
+                  </dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-6 w-6 text-green-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <line x1="9" y1="15" x2="15" y2="9" />
+                      <circle cx="9.5" cy="9.5" r=".5" fill="currentColor" />
+                      <circle cx="14.5" cy="14.5" r=".5" fill="currentColor" />
+                      <path d="M5 7.2a2.2 2.2 0 0 1 2.2 -2.2h1a2.2 2.2 0 0 0 1.55 -.64l.7 -.7a2.2 2.2 0 0 1 3.12 0l.7 .7a2.2 2.2 0 0 0 1.55 .64h1a2.2 2.2 0 0 1 2.2 2.2v1a2.2 2.2 0 0 0 .64 1.55l.7 .7a2.2 2.2 0 0 1 0 3.12l-.7 .7a2.2 2.2 0 0 0 -.64 1.55v1a2.2 2.2 0 0 1 -2.2 2.2h-1a2.2 2.2 0 0 0 -1.55 .64l-.7 .7a2.2 2.2 0 0 1 -3.12 0l-.7 -.7a2.2 2.2 0 0 0 -1.55 -.64h-1a2.2 2.2 0 0 1 -2.2 -2.2v-1a2.2 2.2 0 0 0 -.64 -1.55l-.7 -.7a2.2 2.2 0 0 1 0 -3.12l.7 -.7a2.2 2.2 0 0 0 .64 -1.55v-1" />
+                    </svg>
+                    Tempat Nyaman untuk Semua.
+                  </dt>
+                  <dd class="inline">
+                    Cafe kami dirancang untuk komunitas apapun, memberikan suasana nyaman dan inklusif, memastikan semua pengunjung merasa diterima dan rileks.
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- introduce 2 end-->
+
+    <!-- signature mild start -->
+    <section class="bg-gray-100 text-black">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div class="mx-auto max-w-lg text-center">
+          <h2 class="text-3xl font-bold sm:text-4xl  bg-gradient-to-r from-green-800 from-10% via-green-600 via-30% to-green-500 to-90% bg-clip-text text-transparent ">Our Beloved Signature Menu</h2>
+    
+          <p class="mt-4 text-gray-500">
+            Ini dia, menu andalan yang paling disukai! Dibuat dengan cinta dan bahan berkualitas, setiap sajian signature kami membawa keunikan rasa yang hanya bisa kamu temukan di sini.
+          </p>
+        </div>
+    
+        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <a
+            class="block rounded-xl border  p-8 shadow-xl shadow-green-500/20 transition-al duration-0 hover:duration-300 ease-in-out  hover:border-green-500"
+            href="#"
+          >
+            <img
+              class="w-full h-30 object-cover rounded-lg"
+              src="assets/capuchino.jpeg"  
+              alt="Menu Item 1"
+            />
+            <h2 class="mt-4 text-xl font-bold text-black">Capuchino</h2>
+            <p class="mt-1 text-sm text-gray-500">
+              Kopi espresso berkualitas tinggi dengan busa susu lembut dan krimi, disajikan dengan taburan bubuk cokelat untuk sentuhan manis yang sempurna.
+            </p>
+          </a>
+    
+          <!-- Card 2 -->
+          <a
+            class="block rounded-xl border  p-8 shadow-xl shadow-green-500/20 transition-al duration-0 hover:duration-300 ease-in-out  hover:border-green-500"
+            href="#"
+          >
+            <img
+              class="w-full h-30 object-cover rounded-lg"
+              src="assets/icedAmericano.png"  
+              alt="Menu Item 2"
+            />
+            <h2 class="mt-4 text-xl font-bold text-black">Iced Americano</h2>
+            <p class="mt-1 text-sm text-gray-500">
+              Campuran espresso yang disajikan dingin dengan air, memberikan rasa kopi yang kuat dan menyegarkan, ideal untuk hari panas.
+            </p>
+          </a>
+    
+          <!-- Card 3 -->
+          <a
+            class="block rounded-xl border  p-8 shadow-xl shadow-green-500/20 transition-al duration-0 hover:duration-300 ease-in-out  hover:border-green-500"
+            href="#"
+          >
+            <img
+              class="w-full h-30 object-cover rounded-lg"
+              src="assets/kopisusu.jpg" 
+              alt="Menu Item 3"
+            />
+            <h2 class="mt-4 text-xl font-bold text-black">Kopi Susu</h2>
+            <p class="mt-1 text-sm text-gray-500">
+              Espresso yang kaya dicampur dengan susu segar, menciptakan keseimbangan rasa kopi yang kaya dan manis, cocok untuk setiap suasana.
+            </p>
+          </a>
+        </div>
+    
+        <div class="mt-12 text-center">
+          <a
+            href="#"
+            class="inline-block mt-10 rounded bg-green-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          >
+            Lihat Menu
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- signature bold end -->
+
+    <!-- Testimonial start -->
+ <div class=" bg-gray-100 ">
+  <div id="testimonial-container" class=" relative max-w-screen-md mx-auto text-center overflow-hidden">
+    <!-- orang-orangnya  -->
+    <div class="testimonial-wrapper flex mt-28  transition-transform duration-300">
+        <!-- Testimonial 1 -->
+        <figure class="min-w-full ">
+            <svg class="w-10 h-10 mx-auto mb-3 text-green-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+                <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
+            </svg>
+            <blockquote>
+                <p class="text-2xl italic font-medium text-gray-900 ">Kopi di sini benar-benar luar biasa! capuchino nya membawa rasa yang mendalam dan kualitas yang konsisten. Ini adalah tempat favorit saya untuk menikmati kopi yang benar-benar enak.</p>
+            </blockquote>
+            <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+                <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+                <div class="flex items-center ">
+                    <cite class="pe-3 font-medium text-gray-900 ">Ngkuk</cite>
+                    <cite class="ps-3 text-sm text-gray-500">CEO at Google</cite>
+                </div>
+            </figcaption>
+        </figure>
+       
+        <figure class="min-w-full ">
+         <svg class="w-10 h-10 mx-auto mb-3 text-green-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
+         </svg>
+         <blockquote>
+             <p class="text-2xl italic font-medium text-gray-900 ">Space Program di cafe ini membuat kami merasa sangat diterima. Kami sering mengadakan acara komunitas di sini, dan suasananya selalu hangat dan penuh energi positif. Tempat ini memang ideal untuk berkumpul dan berkolaborasi!</p>
+         </blockquote>
+         <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+             <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+             <div class="flex items-center ">
+                 <cite class="pe-3 font-medium text-gray-900 ">Van Der Sar</cite>
+                 <cite class="ps-3 text-sm text-gray-500">Ex-GK MU</cite>
+             </div>
+         </figcaption>
+     </figure>
+
+     <figure class="min-w-full ">
+       <svg class="w-10 h-10 mx-auto mb-3 text-green-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+           <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
+       </svg>
+       <blockquote>
+           <p class="text-2xl italic font-medium text-gray-900 ">Makanan di sini tidak kalah lezat dengan kopinya. Setiap hidangan yang saya coba selalu segar dan penuh rasa. Menu makanannya benar-benar melengkapi pengalaman ngopi saya dengan sempurna.</p>
+       </blockquote>
+       <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+           <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+           <div class="flex items-center ">
+               <cite class="pe-3 font-medium text-gray-900 ">Kim Jong Unch</cite>
+               <cite class="ps-3 text-sm text-gray-500">Korut Leader</cite>
+           </div>
+       </figcaption>
+   </figure>
+
+   <figure class="min-w-full ">
+     <svg class="w-10 h-10 mx-auto mb-3 text-green-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+         <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
+     </svg>
+     <blockquote>
+         <p class="text-2xl italic font-medium text-gray-900 ">Tempat yang sangat nyaman untuk bersantai. Suasana yang tenang dan dekorasi yang menarik membuat setiap kunjungan menjadi pengalaman yang menyenangkan. Saya merasa seperti di rumah sendiri setiap kali datang ke sini.</p>
+     </blockquote>
+     <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+         <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+         <div class="flex items-center ">
+             <cite class="pe-3 font-medium text-gray-900 ">Unknown</cite>
+             <cite class="ps-3 text-sm text-gray-500">9 Naga</cite>
+         </div>
+     </figcaption>
+ </figure>
+    </div>
+  
+    <!-- Navigation buttons -->
+    <div class="relative mb-28 inset-x-0 bottom-0 flex justify-center mt-8 gap-4">
+        <button id="prev-btn" class="mx-2 bg-green-700 p-2  rounded">
+          <svg class="h-auto w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+        </button>
+        <button id="next-btn" class="mx-2 bg-green-700 p-2 rounded">
+          <svg class="h-auto w-5 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#ffffff"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+        </button>
+    </div>
+  </div>
+</div>
+<!-- testimonial end-->
+
+<!-- divider -->
+ <div class="bg-gray-100 ">
+<div class="bg-gray-100 h-20">
+
+  <span class="relative flex justify-center">
+    <div
+      class=" absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-green-600 to-transparent opacity-75"
+    ></div>
+  
+    
+  </span>
+</div>
+ </div>
+<!-- divider end -->
+
+ <!-- cta start -->
+<!-- <section class=" overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+  <div class=" bg-gray-100 p-8 md:p-12 lg:px-16 lg:py-24">
+    <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+      <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+        Tunggu apalagi ayo ngopi disini
+      </h2>
+
+      <p class="hidden text-gray-500 md:mt-4 md:block">
+       Temukan sensasi baru dalam ngopi, melihat aktivitas komunitas sedang berkumpul dan nongkrong bareng sama teman lama
+      </p>
+
+      <div class="mt-4 md:mt-8">
+        <a
+          href="#atas"
+          class="inline-block rounded bg-green-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        >
+          Ngopi Sekarang
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <img
+    alt=""
+    src="assets/barista_training.jpg"
+    class="rounded-lg h-56 w-full object-cover sm:h-full"
+  />
+</section> -->
+<!-- cta end -->
+
+<!-- ====== Call To Action Section Start -->
+<section class="py-20 lg:py-[120px] bg-green-800">
+  <div class="container mx-auto">
+     <div
+        class="relative z-10 overflow-hidden rounded bg-primary py-12 px-8 md:p-[70px]"
+        >
+        <div class="flex flex-wrap items-center -mx-4">
+           <div class="w-full px-4 lg:w-1/2">
+              <span class="block mb-4 text-base font-medium text-white">
+              mulai sekarang
+              </span>
+              <h2
+                 class="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0"
+                 >
+                 <span class="xs:block"> Mari Kita </span> <br>
+                 <span>Nge-Space</span>
+              </h2>
+           </div>
+           <div class="w-full px-4 lg:w-1/2">
+              <div class="flex flex-wrap lg:justify-end">
+                 <a
+                    href="https://ojursvyne6r.typeform.com/to/qm549f7n" target="_blank"
+                    class="inline-flex py-3 my-1 mr-4 text-base font-medium transition bg-white rounded-md text-primary px-7 hover:bg-orange-400 hover:text-white"
+                    >
+                 Reservasi Space
+                 </a>
+                 <a
+                    href="https://maps.app.goo.gl/iGAguajub4e8nAnf6" target="_blank"
+                    class="inline-flex ring-1 ring-gray-200 py-3 my-1 text-base font-medium text-white transition rounded-md bg-secondary px-7 hover:text-orange-300 hover:ring-orange-300"
+                    >
+                 Lihat Lokasi
+                 </a>
+              </div>
+           </div>
+        </div>
+        <div>
+           <span class="absolute top-0 left-0 z-[-1]">
+              <svg
+                 width="189"
+                 height="162"
+                 viewBox="0 0 189 162"
+                 fill="none"
+                 xmlns="http://www.w3.org/2000/svg"
+                 >
+                 <ellipse
+                    cx="16"
+                    cy="-16.5"
+                    rx="173"
+                    ry="178.5"
+                    transform="rotate(180 16 -16.5)"
+                    fill="url(#paint0_linear)"
+                    />
+                 <defs>
+                    <linearGradient
+                       id="paint0_linear"
+                       x1="-157"
+                       y1="-107.754"
+                       x2="98.5011"
+                       y2="-106.425"
+                       gradientUnits="userSpaceOnUse"
+                       >
+                       <stop stop-color="white" stop-opacity="0.07" />
+                       <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                 </defs>
+              </svg>
+           </span>
+           <span class="absolute bottom-0 right-0 z-[-1]">
+              <svg
+                 width="191"
+                 height="208"
+                 viewBox="0 0 191 208"
+                 fill="none"
+                 xmlns="http://www.w3.org/2000/svg"
+                 >
+                 <ellipse
+                    cx="173"
+                    cy="178.5"
+                    rx="173"
+                    ry="178.5"
+                    fill="url(#paint0_linear)"
+                    />
+                 <defs>
+                    <linearGradient
+                       id="paint0_linear"
+                       x1="-3.27832e-05"
+                       y1="87.2457"
+                       x2="255.501"
+                       y2="88.5747"
+                       gradientUnits="userSpaceOnUse"
+                       >
+                       <stop stop-color="white" stop-opacity="0.07" />
+                       <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                 </defs>
+              </svg>
+           </span>
+        </div>
+     </div>
+  </div>
+</section>
+<!-- ====== Call To Action Section End -->
+
+    <!-- footer start -->
+    <footer class="bg-gray-100">
+      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="mt-10 sm:flex sm:items-center sm:justify-between">
+          <a href="#atas" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <img src="assets/logoKyranSingle-01.svg" class="h-14" alt="Logo" />
+            <div>
+              <span class="self-center text-green-800 text-2xl font-semibold whitespace-nowrap">KoffieKyran</span>
+              <p class="text-gray-600 text-sm">Jl. Pasundan No.80, Kota Kulon, Kec. Garut Kota, Kabupaten Garut, Jawa Barat 44112</p>
+            </div>
+          </a>
+    
+          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <li>
+              <a href="https://www.instagram.com/koffiekyran" target="_blank" class="hover:underline me-4 md:me-6">Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@koffiekyran" target="_blank" class="hover:underline me-4 md:me-6">Tiktok</a>
+            </li>
+            <li>
+              <a href="#kenapaKami" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+              <a href="https://wa.me/6282262856560" target="_blank" class="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="my-6 bg-green-800/50 sm:mx-auto lg:my-8" />
+    
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" class="hover:underline">KoffieKyran</a>. All Rights Reserved.</span>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    
+   
+    <script src="action.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  </body>
+</html>
